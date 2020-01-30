@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66534280-3cd4-4013-873a-b574249665fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/CheckUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zeroten/common/util/CheckUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zeroten/common/util/CheckUtilsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-96">
+            <state relative-caret-position="68">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
@@ -44,8 +46,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zeroten/common/util/CheckUtilsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/util/CheckUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="40" column="39" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -55,8 +69,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="TestNG Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,6 +84,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/com/zeroten/common/util/CheckUtilsTest1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/CheckUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zeroten/common/util/CheckUtilsTest.java" />
       </list>
     </option>
@@ -87,7 +102,9 @@
     <option name="width" value="1346" />
     <option name="height" value="698" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -112,6 +129,21 @@
               <item name="JavaCommonTools" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCommonTools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCommonTools" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCommonTools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCommonTools" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCommonTools" type="b2602c69:ProjectViewProjectNode" />
@@ -171,6 +203,88 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="TestNG.CheckUtilsTest.testEqualsInteger">
+    <configuration name="CheckUtilsTest.testEqualsInteger" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaCommonTools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroten.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.CheckUtilsTest" />
+      <option name="METHOD_NAME" value="testEqualsInteger" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckUtilsTest.testEqualsString" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaCommonTools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroten.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.CheckUtilsTest" />
+      <option name="METHOD_NAME" value="testEqualsString" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckUtilsTest.testIsAnyEmpty" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaCommonTools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroten.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.CheckUtilsTest" />
+      <option name="METHOD_NAME" value="testIsAnyEmpty" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckUtilsTest.testIsEmpty" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaCommonTools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroten.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.CheckUtilsTest" />
+      <option name="METHOD_NAME" value="testIsEmpty" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.CheckUtilsTest.testEqualsInteger" />
+        <item itemvalue="TestNG.CheckUtilsTest.testEqualsString" />
+        <item itemvalue="TestNG.CheckUtilsTest.testIsEmpty" />
+        <item itemvalue="TestNG.CheckUtilsTest.testIsAnyEmpty" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
   </component>
@@ -184,27 +298,61 @@
       <workItem from="1580312231414" duration="856000" />
       <workItem from="1580313268170" duration="1069000" />
       <workItem from="1580314598685" duration="265000" />
-      <workItem from="1580314942119" duration="2063000" />
+      <workItem from="1580314942119" duration="2212000" />
+      <workItem from="1580364368496" duration="3478000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CheckUtilsTest_testIsEmpty - 2020.01.30 at 14h 41m 14s.xml">
+      <configuration name="CheckUtilsTest.testIsEmpty" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckUtilsTest_testIsEmpty - 2020.01.30 at 14h 41m 24s.xml">
+      <configuration name="CheckUtilsTest.testIsEmpty" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckUtilsTest_testIsEmpty - 2020.01.30 at 14h 42m 09s.xml">
+      <configuration name="CheckUtilsTest.testIsEmpty" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckUtilsTest_testIsEmpty - 2020.01.30 at 14h 42m 21s.xml">
+      <configuration name="CheckUtilsTest.testIsEmpty" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckUtilsTest_testIsEmpty - 2020.01.30 at 14h 42m 26s.xml">
+      <configuration name="CheckUtilsTest.testIsEmpty" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckUtilsTest_testIsEmpty - 2020.01.30 at 14h 44m 30s.xml">
+      <configuration name="CheckUtilsTest.testIsEmpty" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckUtilsTest_testEqualsString - 2020.01.30 at 14h 53m 56s.xml">
+      <configuration name="CheckUtilsTest.testEqualsString" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckUtilsTest_testEqualsInteger - 2020.01.30 at 14h 58m 28s.xml">
+      <configuration name="CheckUtilsTest.testEqualsInteger" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckUtilsTest_testEqualsString - 2020.01.30 at 14h 59m 17s.xml">
+      <configuration name="CheckUtilsTest.testEqualsString" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckUtilsTest_testEqualsInteger - 2020.01.30 at 14h 59m 27s.xml">
+      <configuration name="CheckUtilsTest.testEqualsInteger" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4253000" />
+    <option name="totallyTimeSpent" value="7880000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32850242" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993559" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -227,7 +375,27 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zeroten/common/util/CheckUtils.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zeroten/common/util/CheckUtilsTest1.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -238,24 +406,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/TestInvoker.class">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zeroten/common/util/CheckUtilsTest1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/util/CheckUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        <state relative-caret-position="143">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/zeroten/common/util/CheckUtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
